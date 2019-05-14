@@ -1,3 +1,25 @@
 body{
-  background: blue;
+  background: gray;
+}
+
+.container{
+  text-align: center;
+}
+
+.correct{
+  color: green;
+}
+
+.wrong{
+  color: red;
+}
+
+button{
+  display: block;
+  width: 100%;
+  margin: 10px 10px;
+}
+
+.hide{
+  display: none;
 }

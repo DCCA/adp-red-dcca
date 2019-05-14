@@ -6,12 +6,27 @@
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script rel="text/javascript" src="https://api.myjson.com/bins/mxy0i"></script>
 
     <link rel="stylesheet" href="style.css">
-    <script rel="text/javascript" src="quiz-red.js"></script>
 
   </head>
   <body>
-
+    <div id="home" class="container">
+      <h1>Quiz App</h1>
+      <button type="button" id="q1" class="quiz btn btn-primary btn-lg">Quiz One</button>
+      <button type="button" id="q2" class="quiz btn btn-primary btn-lg">Quiz Two</button>
+    </div>
+    <div id="quiz" class="container hide">
+      <h2 id="question">Question</h2>
+      <button type="button" class="answers btn btn-primary btn-lg">Quiz One</button>
+      <button type="button" class="answers btn btn-primary btn-lg">Quiz One</button>
+      <button type="button" class="answers btn btn-primary btn-lg">Quiz One</button>
+      <button type="button" class="answers btn btn-primary btn-lg">Quiz One</button>
+    </div>
+    <div id="result" class="container hide">
+      <h1>Result</h1>
+    </div>
+    <script rel="text/javascript" src="quiz-red.js"></script>
   </body>
 </html>
