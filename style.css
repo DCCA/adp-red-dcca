@@ -8,16 +8,23 @@ body{
 
 .correct{
   color: green;
+  transition: background 0.1s;
+  -webkit-transition: background 0.1s;
+  -moz-transition: background 0.1s;
 }
 
 .wrong{
   color: red;
+  transition: background 0.1s;
+  -webkit-transition: background 0.1s;
+  -moz-transition: background 0.1s;
 }
 
 button{
   display: block;
   width: 100%;
   margin: 10px 10px;
+  text-decoration: none;
 }
 
 .hide{
